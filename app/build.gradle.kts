@@ -7,6 +7,9 @@ android {
     namespace = "com.farbalapps.contactos"
     compileSdk = 35
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.farbalapps.contactos"
         minSdk = 31
@@ -33,6 +36,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
 }
 
 dependencies {
